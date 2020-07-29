@@ -1,0 +1,56 @@
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\TeamGoalBand\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\!Libs\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\repos\DiaryFoodBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\SIMSellerBot\Work\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.deps.json
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\bin\Debug\netstandard2.0\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfoInputs.cache
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.AssemblyInfo.cs
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.dll
+D:\Programming\VisualStudioProjects\SIMSellerBot\repos\SIMSellerBot\BotLibrary\obj\Debug\netstandard2.0\BotLibrary.pdb
