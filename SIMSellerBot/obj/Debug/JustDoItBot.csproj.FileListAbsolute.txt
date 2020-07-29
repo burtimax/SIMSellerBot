@@ -1,0 +1,243 @@
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.Form1.resources
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.Properties.Resources.resources
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.csproj.GenerateResource.cache
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\JustDoItBot.exe.config
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\JustDoItBot.exe
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\JustDoItBot.pdb
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\BotLibrary.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.csproj.CopyComplete
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.exe
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\obj\Debug\JustDoItBot.pdb
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Telegram.Bot.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Telegram.Bot.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Identity.Client.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Buffers.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Collections.Immutable.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Memory.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Numerics.Vectors.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\Microsoft.Identity.Client.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Buffers.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Collections.Immutable.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Memory.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Numerics.Vectors.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\JustDoIt_TelegramBot\JustDoItBot\JustDoItBot\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\JustDoItBot.exe.config
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\JustDoItBot.exe
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\JustDoItBot.pdb
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\BotLibrary.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Identity.Client.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Buffers.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Collections.Immutable.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Memory.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Numerics.Vectors.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Telegram.Bot.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\BotLibrary.pdb
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Identity.Client.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Buffers.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Collections.Immutable.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Memory.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Numerics.Vectors.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\Telegram.Bot.xml
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.csprojAssemblyReference.cache
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.Form1.resources
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.Properties.Resources.resources
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.csproj.GenerateResource.cache
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.csproj.CopyComplete
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.exe
+D:\Programming\Realise Projects\JustFuckingDoItBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\JustDoItBot.exe.config
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\JustDoItBot.exe
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\JustDoItBot.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\BotLibrary.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Identity.Client.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Buffers.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Collections.Immutable.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Memory.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Numerics.Vectors.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Telegram.Bot.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\BotLibrary.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Microsoft.Identity.Client.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Buffers.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Collections.Immutable.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Memory.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Numerics.Vectors.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\Telegram.Bot.xml
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.csprojAssemblyReference.cache
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\FoodDiaryBot.Form1.resources
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.Properties.Resources.resources
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.csproj.GenerateResource.cache
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.csproj.CopyComplete
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.exe
+D:\Programming\VisualStudioProjects\FoodDiaryBot\Band_TelegramBot\JustDoItBot\obj\Debug\JustDoItBot.pdb
