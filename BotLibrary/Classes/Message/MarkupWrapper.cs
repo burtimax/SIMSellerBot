@@ -51,7 +51,7 @@ namespace BotLibrary.Classes
         /// <param name="text">Имя кнопки</param>
         /// <param name="callBack">Используется только для InlineKeyboardMarkup</param>
         /// <returns></returns>
-        public MarkupWrapper<T> Add(string text, string callBack = "default")
+        public MarkupWrapper<T> Add(string text, string callBack = "default", string url = null)
         {
 
             if (typeof(T) == typeof(ReplyKeyboardMarkup)){
@@ -62,10 +62,18 @@ namespace BotLibrary.Classes
 
             if (typeof(T) == typeof(InlineKeyboardMarkup))
             {
-                InlineKeyboardButton btn = new InlineKeyboardButton();
-                btn.Text = text;
-                btn.CallbackData = callBack;
-                LastRow.Add(btn);
+                if (string.IsNullOrWhiteSpace(url))
+                {
+                    InlineKeyboardButton btn = new InlineKeyboardButton();
+                    btn.Text = text;
+                    btn.CallbackData = callBack;
+                    LastRow.Add(btn);
+                }
+                else
+                {
+                    InlineKeyboardButton btn = InlineKeyboardButton.WithUrl(text, url);
+                    LastRow.Add(btn);
+                }
             }
 
             return this;
