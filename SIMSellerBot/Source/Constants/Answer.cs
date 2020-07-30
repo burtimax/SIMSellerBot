@@ -29,7 +29,7 @@ namespace SIMSellerBot.Source.Constants
         public const string AskInputNumberAgain =
             "Вы не ввели номер(а) телефона, который хотите заказать.\nВведите номер(а) снова!\n(Например 89051234567)";
         public const string AskInputNumberAgainForSetContacts =
-            "Не могу распознать номер телефона!\nВведите ваш номер телефона снова, чтобы менеджер мог связаться с вами.";
+            "Номер телефона не распознан!\nВведите вашы контакты снова, чтобы менеджер мог связаться с вами.";
 
         public const string AskInputMessage = "Введите сообщение";
 

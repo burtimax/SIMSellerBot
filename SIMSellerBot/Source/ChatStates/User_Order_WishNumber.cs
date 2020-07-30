@@ -18,7 +18,7 @@ namespace SIMSellerTelegramBot.Source.ChatStates
 {
     class User_Order_WishNumber : ParentState
     {
-        private Regex regNumber = new Regex(@"(?<PhoneNumber>[\+]?[0-9]{1}?[\s(]*?[0-9]{3}[\s)]*?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{2}?[-\s\.]?[0-9]{2})");
+        private Regex regNumber = new Regex(@"(?<PhoneNumber>[\+]?[0-9]?[\s(]*?[0-9]{3}[\s)]*?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{2}?[-\s\.]?[0-9]{2})");
 
         public User_Order_WishNumber(State state) : base(state)
         {
@@ -99,12 +99,25 @@ namespace SIMSellerTelegramBot.Source.ChatStates
             {
                 var curNum = match.Groups["PhoneNumber"].Value;
 
+                curNum = curNum
+                    .Replace(" ", null)
+                    .Replace("(", null)
+                    .Replace(")", null)
+                    .Replace("-", null);
+
                 //Меняем 8 на +7
                 if (curNum.StartsWith("8"))
                 {
                     curNum.Remove(0, 1);
                     curNum = "+7" + curNum;
                 }
+
+                //Если номер 10 значный, то сделаем его 11 значным
+                if (curNum.Length == 10 && curNum.StartsWith("9"))
+                {
+                    curNum = "+7" + curNum;
+                }
+
                 dataStr += curNum + "|";
             }
 

@@ -57,5 +57,10 @@ namespace SIMSellerTelegramBot
         {
             this.botController.StartBot();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

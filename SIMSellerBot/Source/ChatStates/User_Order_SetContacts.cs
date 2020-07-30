@@ -19,7 +19,7 @@ namespace SIMSellerTelegramBot.Source.ChatStates
 {
     class User_Order_SetContacts : ParentState
     {
-        private Regex regNumber = new Regex(@"(?<PhoneNumber>[\+]?[0-9]{1}?[\s(]*?[0-9]{3}[\s)]*?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{2}?[-\s\.]?[0-9]{2})");
+        private Regex regNumber = new Regex(@"(?<PhoneNumber>[\+]?[0-9]?[\s(]*?[0-9]{3}[\s)]*?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{2}?[-\s\.]?[0-9]{2})");
 
 
         public User_Order_SetContacts(State state) : base(state)
@@ -82,26 +82,44 @@ namespace SIMSellerTelegramBot.Source.ChatStates
         /// <returns></returns>
         private Hop ProcessTextMessage(User user, TelegramBotClient bot, InboxMessage mes, string text)
         {
-            
+            text = text.Replace("\n", "&");
 
-            var res = regNumber.Match(text);
+            var res = regNumber.Matches(text);
 
-            if(res.Success == false)
+            if(res.Count == 0)
             {
                 bot.SendTextMessageAsync(user.ChatId, Answer.AskInputNumberAgainForSetContacts);
                 return null;
             }
 
-            //Берем контактный номер
-            var contactNumber = res.Value;
-
-            //меняем 8 на +7
-            if (contactNumber.StartsWith("8"))
+            //Приведем номер телефона к эдиному виду
+            for(var i = 0; i < res.Count; i++)
             {
-                contactNumber = "+7" + contactNumber.Remove(0, 1);
+                var curNum = res[i].Groups["PhoneNumber"].Value;
+                curNum = curNum
+                    .Replace(" ", null)
+                    .Replace("(", null)
+                    .Replace(")", null)
+                    .Replace("-", null);
+
+                //Меняем 8 на +7
+                if (curNum.StartsWith("8"))
+                {
+                    curNum.Remove(0, 1);
+                    curNum = "+7" + curNum;
+                }
+
+                //Если номер 10 значный, то сделаем его 11 значным
+                if (curNum.Length == 10 && curNum.StartsWith("9"))
+                {
+                    curNum = "+7" + curNum;
+                }
+
+                text = text.Replace(res[i].Groups["PhoneNumber"].Value, curNum);
             }
 
-            
+            text = text.Replace("&", "\n");
+            string contactString = text;
 
             List<string> wishNumbers = this.State.Data.Trim('#').Split('|')?.ToList();
 
@@ -111,7 +129,7 @@ namespace SIMSellerTelegramBot.Source.ChatStates
             }
 
             //Создать заявку
-            var newRequest = DbMethods.CreateNumberRequest(this.Db, user, wishNumbers, contactNumber);
+            var newRequest = DbMethods.CreateNumberRequest(this.Db, user, wishNumbers, contactString);
 
             //Оповестить менеджеров о новой заявке
             if (Equals(newRequest, null) == false)
