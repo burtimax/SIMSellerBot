@@ -96,7 +96,10 @@ namespace SIMSellerTelegramBot.Source.ChatStates
         /// <returns></returns>
         private Hop ProcessTextMessage(User user, TelegramBotClient bot, InboxMessage mes, string text)
         {
-            return this.State.HopOnSuccess;
+            Hop hop = this.State.HopOnSuccess.GetCopy();
+            hop.IntroductionString = Answer.DontUnderstandYouforgotPressButton;
+
+            return hop;
         }
 
 

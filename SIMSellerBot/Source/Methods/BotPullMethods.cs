@@ -37,42 +37,39 @@ namespace SIMSellerTelegramBot.Source.SIMSellerBot.Source.Methods
             {
                 //Строковое сообщение
                 case MessageType.Text:
-                    string text = mes.Data as string;
 
-                    //Сохранить сообщение в базу данных
-                    //ToDo Сохранить сообщение в базу данных.
-
-                    //Если прислана команда [/start], просто обновить текущее состояние, вывести клавиатуру.
-                    if (string.Equals((text), Constants.Constants.SPECIAL_COMMAND_START) == true)
+                    using (BotDbContext db = new BotDbContext(HelperDataBase.DB_OPTIONS))
                     {
-                        if (string.IsNullOrEmpty(state?.Name) == false)
+                        string text = mes.Data as string;
+
+                        //Сохранить сообщение в базу данных
+                        DbMethods.SaveMessage(db, mes);
+
+                        //Если прислана команда [/start], просто обновить текущее состояние, вывести клавиатуру.
+                        if (string.Equals((text), Constants.Constants.SPECIAL_COMMAND_START) == true)
                         {
-                            Hop hop = new Hop()
+                            if (string.IsNullOrEmpty(state?.Name) == false)
                             {
-                                NextStateName = state.Name,
-                            };
-                            return (false, hop);
+                                Hop hop = new Hop()
+                                {
+                                    NextStateName = state.Name,
+                                };
+                                return (false, hop);
+                            }
                         }
-                    }
 
-                    //Если прислана команда [/wantbecomemanager]остояние, вывести клавиатуру.
-                    if (string.Equals((text), Constants.Constants.SPECIAL_COMMAND_BECOME_MANAGER) == true)
-                    {
-                        using (BotDbContext db = new BotDbContext(HelperDataBase.DB_OPTIONS))
+                        //Если прислана команда [/wantbecomemanager]остояние, вывести клавиатуру.
+                        if (string.Equals((text), Constants.Constants.SPECIAL_COMMAND_BECOME_MANAGER) == true)
                         {
                             DbMethods.SetUserRole(db, mes.ChatId, Constants.Constants.ROLE_MANAGER);
                         }
-                    }
 
-                    //Если прислана команда [/wantbecomeuser]остояние, вывести клавиатуру.
-                    if (string.Equals((text), Constants.Constants.SPECIAL_COMMAND_BECOME_USER) == true)
-                    {
-                        using (BotDbContext db = new BotDbContext(HelperDataBase.DB_OPTIONS))
+                        //Если прислана команда [/wantbecomeuser]остояние, вывести клавиатуру.
+                        if (string.Equals((text), Constants.Constants.SPECIAL_COMMAND_BECOME_USER) == true)
                         {
                             DbMethods.SetUserRole(db, mes.ChatId, Constants.Constants.ROLE_USER);
                         }
                     }
-
                     break;
                 default:
 
@@ -88,15 +85,22 @@ namespace SIMSellerTelegramBot.Source.SIMSellerBot.Source.Methods
         /// Перед обработкой сообщения проверяем, что пользователь есть в базе данных.
         /// </summary>
         /// <param name="chatId"></param>
-        public static (bool userActive, object userObj) CheckUserBeforeMessageProcessing(Telegram.Bot.Types.Message telegramMessage)
+        public static (bool userActive, object userObj) CheckUserBeforeMessageProcessing(TelegramBotClient bot, Telegram.Bot.Types.Message telegramMessage)
         {
             using (BotDbContext db = new BotDbContext(HelperDataBase.DB_OPTIONS))
             {
                 DataBase.Models.User user = null;
                 if (IsUserInDatabase(db, telegramMessage.Chat.Id, out user) == false)
                 {
-                    user = AddUserToDb(db, telegramMessage);
-                    
+                    var res = AddUserToDb(db, telegramMessage);
+                    user = res.user;
+
+                    //Если это новый пользователь, то уведомим менеджеров о появлении нового пользователя.
+                    if (res.isNew)
+                    {
+                        BotMethods.NotifyManagers(bot, res.user, Answer.NotifyNewUser(res.user));
+                    }
+
                     return (true, user);
                 }
 
@@ -307,7 +311,7 @@ namespace SIMSellerTelegramBot.Source.SIMSellerBot.Source.Methods
         /// </summary>
         /// <param name="db"></param>
         /// <param name="chatId"></param>
-        public static User AddUserToDb(BotDbContext db, Telegram.Bot.Types.Message telegramMessage)
+        public static (User user, bool isNew) AddUserToDb(BotDbContext db, Telegram.Bot.Types.Message telegramMessage)
         {
             return DbMethods.AddUserIfNeed(db, telegramMessage);
         }

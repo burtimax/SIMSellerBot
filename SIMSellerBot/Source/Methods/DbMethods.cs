@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using BotLibrary.Classes;
 using SIMSellerTelegramBot;
 using SIMSellerTelegramBot.DataBase.Context;
@@ -13,6 +14,7 @@ using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using SIMSellerBot.DataBase.Models;
 using SIMSellerBot.Source.Constants;
+using SIMSellerBot.Source.Db;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
@@ -31,46 +33,57 @@ namespace SIMSellerBot.Source.Methods
         /// <summary>
         /// Добавить в базу User если не существует
         /// </summary>
-        public static User AddUserIfNeed(BotDbContext db, Telegram.Bot.Types.Message telegramMessage)
+        public static (User user, bool isNew) AddUserIfNeed(BotDbContext db, Telegram.Bot.Types.Message telegramMessage)
         {
             var user = GetUserByChatId(db, telegramMessage.Chat.Id);
 
             if (Equals(user, null))
             {
-                //Создадим пользователя.
-                User newUser = new User()
-                {
-                    ChatId = telegramMessage.Chat.Id,
-                    Role = "user",
-                    Active = true,
-                    FirstName = telegramMessage.From.FirstName,
-                    LastName = telegramMessage.From.LastName,
-                    Username = telegramMessage.From.Username,
-                    IsNewsSubscriber = true,
-                };
-                db.Users.Add(newUser);
-
-
-                //Создадим сущность ChatState
-                ChatState chatState = new ChatState()
-                {
-                    ChatId = telegramMessage.Chat.Id,
-                    UserId = newUser.Id,
-                    User = newUser,
-                };
-                db.ChatStates.Add(chatState);
-
-                //Привяжем ChatState к пользователю
-                newUser.ChatState = chatState;
-
-                //Сохраняем все изменения и все добавленные сущности.
-                db.SaveChanges();
-
-                return newUser;
+                return (AddUser(db, telegramMessage), true);
             }
 
-            return user;
+            return (user, false);
 
+        }
+
+        /// <summary>
+        /// Добавляем пользователя без проверки на существование
+        /// </summary>
+        /// <param name="db"></param>
+        /// <param name="telegramMessage"></param>
+        /// <returns></returns>
+        public static User AddUser(BotDbContext db, Telegram.Bot.Types.Message telegramMessage)
+        {
+            //Создадим пользователя.
+            User newUser = new User()
+            {
+                ChatId = telegramMessage.Chat.Id,
+                Role = "user",
+                Active = true,
+                FirstName = telegramMessage.From.FirstName,
+                LastName = telegramMessage.From.LastName,
+                Username = telegramMessage.From.Username,
+                IsNewsSubscriber = true,
+            };
+            db.Users.Add(newUser);
+
+
+            //Создадим сущность ChatState
+            ChatState chatState = new ChatState()
+            {
+                ChatId = telegramMessage.Chat.Id,
+                UserId = newUser.Id,
+                User = newUser,
+            };
+            db.ChatStates.Add(chatState);
+
+            //Привяжем ChatState к пользователю
+            newUser.ChatState = chatState;
+
+            //Сохраняем все изменения и все добавленные сущности.
+            db.SaveChanges();
+
+            return newUser;
         }
 
         /// <summary>
@@ -430,6 +443,71 @@ namespace SIMSellerBot.Source.Methods
 
             user.Role = role;
             db.SaveChanges();
+        }
+
+
+        /// <summary>
+        /// Сохранить сообщение в базу данных
+        /// </summary>
+        public static void SaveMessage(BotDbContext db, InboxMessage mes)
+        {
+            if (mes.Type == MessageType.Text)
+            {
+                Message m = new Message()
+                {
+                    ChatId = mes.ChatId,
+                    Text = mes.Data as string,
+                };
+
+                db.Messages.Add(m);
+                db.SaveChanges();
+            }
+           
+        }
+
+        /// <summary>
+        /// Получить статистику по боту
+        /// </summary>
+        public static string GetBotStatisticsString(BotDbContext db)
+        {
+            string res = null;
+            res += $"Статистика бота:\n" +
+                   $"Пользователи: [{GetCountUsers(db)}] чел.\n" +
+                   $"Активность (сообщ.):\n" +
+                   $"Все время: [{GetCountMessagesLastDays(db)}]\n" +
+                   $"        10 дн.: [{GetCountMessagesLastDays(db, 10)}]\n" +
+                   $"          3 дн.: [{GetCountMessagesLastDays(db, 3)}]\n" +
+                   $"    Сегодня: [{GetCountMessagesLastDays(db, 1)}]\n";
+
+            return res;
+        }
+
+        /// <summary>
+        /// Количество сообщений за прошлые days дней
+        /// </summary>
+        /// <returns></returns>
+        public static int GetCountMessagesLastDays(BotDbContext db, int days = -1)
+        {
+            if (days == -1)
+            {
+                return db.Messages?.Count() ?? 0;
+            }
+
+            DateTime startDate = DateTime.Now.Date.AddDays(-1 * days + 1).Date;
+
+            return (from m in db.Messages
+                where m.CreateTime.Date >= startDate
+                select m)?.Count() ?? 0;
+        }
+
+        /// <summary>
+        /// Количество пользователей бота
+        /// </summary>
+        /// <param name="db"></param>
+        /// <returns></returns>
+        public static int GetCountUsers(BotDbContext db)
+        {
+            return db.Users?.Count() ?? 0;
         }
     }
 }

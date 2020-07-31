@@ -255,7 +255,7 @@ namespace SIMSellerTelegramBot.Source.ChatStates
             var sender = DbMethods.GetUserByChatId(this.Db, r.FromChatId);
             var inline = Keyboards.InlineForNewNumberRequest(sender, r);
 
-            string reqStr = Answer.GetInfoAboutRequestNumber(user, r);
+            string reqStr = Answer.GetInfoAboutRequestNumber(sender, r);
 
             if (messageId == -1)
             {

@@ -108,7 +108,7 @@ namespace SIMSellerTelegramBot.Source.ChatStates
                 //Меняем 8 на +7
                 if (curNum.StartsWith("8"))
                 {
-                    curNum.Remove(0, 1);
+                    curNum = curNum.Remove(0, 1);
                     curNum = "+7" + curNum;
                 }
 

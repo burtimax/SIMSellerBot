@@ -83,8 +83,8 @@ namespace SIMSellerTelegramBot.Source.ChatStates
             {
                 BotMethods.NotifyManagers(bot, 
                     user, 
-                    Answer.GetInfoAboutQuestion(user, question), 
-                    Keyboards.AnswerToQuestionInlineKeyboard(user.ChatId));
+                    Answer.GetInfoAboutQuestion(user, question)
+                    /*Keyboards.AnswerToQuestionInlineKeyboard(user.ChatId)*/);
             }
 
             Hop hopSuc = this.State.HopOnSuccess.GetCopy();

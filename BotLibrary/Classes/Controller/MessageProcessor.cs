@@ -35,7 +35,7 @@ namespace BotLibrary.Classes.Controller
             {
                 
                 //Проверим пользователя если вдруг его нет в базе, то добавить его.
-                 (bool userApprove, object userObj) result = this.Methods.CheckUserBeforeMessageProcess(mes?.BaseMessage);
+                 (bool userApprove, object userObj) result = this.Methods.CheckUserBeforeMessageProcess(mes.Bot, mes?.BaseMessage);
                  bool approveUser = result.userApprove;
 
                 //Если пользователь не прошел проверку, то не обрабатываем сообщение. Вызываем метод из PullMethods
@@ -104,7 +104,7 @@ namespace BotLibrary.Classes.Controller
             try
             {
                 //Проверим пользователя если вдруг его нет в базе, то добавить его.
-                (bool userApprove, object userObj) result = this.Methods.CheckUserBeforeMessageProcess(callback.Message);
+                (bool userApprove, object userObj) result = this.Methods.CheckUserBeforeMessageProcess(mes.Bot, callback.Message);
                 bool approveUser = result.userApprove;
 
                 //Если пользователь не прошел проверку, то не обрабатываем сообщение. Вызываем метод из PullMethods

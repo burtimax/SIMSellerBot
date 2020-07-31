@@ -14,7 +14,7 @@ namespace BotLibrary.Classes.Controller
     public class PullMethods
     {
         private Func<long, State> _getUserCurrentChatState;
-        private Func<Telegram.Bot.Types.Message, (bool userActive, object userObj)> _checkUserBeforeMessageProcess;
+        private Func<TelegramBotClient, Telegram.Bot.Types.Message, (bool userActive, object userObj)> _checkUserBeforeMessageProcess;
         private Action<TelegramBotClient, InboxMessage> _onFailUserCheck;
         private Action<TelegramBotClient, long, State, Hop> _changeCurrentState;
         private Func<TelegramBotClient, State, InboxMessage, (bool,Hop)> _preprocessMessage;
@@ -27,7 +27,7 @@ namespace BotLibrary.Classes.Controller
         /// <param name="checkUserBeforeMessageProcessing">Метод, который будет проверять пользователя на наличие в базе данных перед тем как обработать его сообщение.</param>
         /// <param name="changeCurrentChatState">Метод, которы будет менять в базе статус текущего состояние и делать переход в другое состояние бота.</param>
         public PullMethods([NotNull] Func<long, State> getCurrentUserState,
-            [NotNull] Func<Telegram.Bot.Types.Message,(bool userActive, object userObj)> checkUserBeforeMessageProcessing,
+            [NotNull] Func<TelegramBotClient, Telegram.Bot.Types.Message,(bool userActive, object userObj)> checkUserBeforeMessageProcessing,
             [NotNull] Action<TelegramBotClient, long, State, Hop> changeCurrentChatState,
             [NotNull] Action<Exception, TelegramBotClient> processBotException,
             [CanBeNull] Func<TelegramBotClient, State, InboxMessage, (bool, Hop)> preProcessMessage = null,
@@ -54,9 +54,9 @@ namespace BotLibrary.Classes.Controller
         /// </summary>
         /// <param name="chatId"></param>
         /// <returns>Если true, то сообщения пользователя будут обрабатываться, иначе не будут обрабатываться</returns>
-        public (bool, object) CheckUserBeforeMessageProcess(Telegram.Bot.Types.Message mes)
+        public (bool, object) CheckUserBeforeMessageProcess(TelegramBotClient bot, Telegram.Bot.Types.Message mes)
         {
-            return this._checkUserBeforeMessageProcess(mes);
+            return this._checkUserBeforeMessageProcess(bot, mes);
         }
 
         public void ChangeCurrentChatState(TelegramBotClient bot, long chatId, State currentState, Hop hop)

@@ -86,7 +86,9 @@ namespace SIMSellerTelegramBot.Source.Constants
                 .Add(Answer.BtnRequests)
                 .Add(Answer.BtnQuestions)
                 .NewRow()
-                .Add(Answer.BtnBroadcastNotification);
+                .Add(Answer.BtnBroadcastNotification)
+                .NewRow()
+                .Add(Answer.BtnStatistics);
 
 
         /// <summary>

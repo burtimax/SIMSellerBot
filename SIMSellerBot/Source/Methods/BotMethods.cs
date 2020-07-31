@@ -59,7 +59,7 @@ namespace SIMSellerBot.Source.Db
 
 
         /// <summary>
-        /// Уведомить менеджеров о новой заявке
+        /// Уведомить менеджеров
         /// </summary>
         public static void NotifyManagers(TelegramBotClient bot,
             User user,

@@ -78,7 +78,9 @@ namespace SIMSellerTelegramBot.Source.ChatStates
                     break;
 
                 case Answer.BtnStatistics:
-
+                    string statStr = DbMethods.GetBotStatisticsString(this.Db);
+                    bot.SendTextMessageAsync(mes.ChatId, statStr, replyMarkup: Keyboards.InlineWrapMessage.Value);
+                    return null;
                     break;
 
                 case Answer.BtnBroadcastNotification:

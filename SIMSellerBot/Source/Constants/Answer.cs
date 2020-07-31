@@ -24,6 +24,7 @@ namespace SIMSellerBot.Source.Constants
         public const string GoToChat = "Перейти в чат";
         public const string ReturnToNewNumberRequestsList = "Вернуть в список необработанных";
         public const string NoData = "Нет данных!";
+        public const string DontUnderstandYouforgotPressButton = "Не понимаю!\nВозможно вы забыли нажать на кнопку.";
 
         //Ask
         public const string AskInputNumberAgain =
@@ -171,7 +172,16 @@ namespace SIMSellerBot.Source.Constants
             return res;
         }
 
-        
+        public static string NotifyNewUser(User user)
+        {
+            if (Equals(user, null))
+            {
+                return null;
+            }
+
+            return $"НОВЫЙ ПОЛЬЗОВАТЕЛЬ\n" +
+                   $"[{user.FirstName} {user.LastName}]";
+        }
 
         public static string GetInfoAboutQuestion(User sender, Question question)
         {
