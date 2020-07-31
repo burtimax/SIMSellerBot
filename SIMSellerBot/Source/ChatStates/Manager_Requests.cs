@@ -90,10 +90,15 @@ namespace SIMSellerTelegramBot.Source.ChatStates
         /// <returns></returns>
         private Hop ProcessTextMessage(User user, TelegramBotClient bot, InboxMessage mes, string text)
         {
+            Hop hop = new Hop()
+            {
+                NextStateName = "Manager_Requests",
+                IntroductionString = Answer.DontUnderstandYouforgotPressButton,
+                Type = HopType.CurrentLevelHop,
+            };
 
 
-
-            return null;
+            return hop;
         }
 
         public override Hop ProcessCallback(object userObj, TelegramBotClient bot, InboxMessage mes,
